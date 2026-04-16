@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CourseHub - Add Course</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">📚 CourseHub</div>
+  <nav>
+    <a href="index.html" class="lbtn-outline" style="border:none; padding: 7px 16px;">Home</a>
+    <a href="courses.html" class="lbtn-outline" style="border:none; padding: 7px 16px;">My Courses</a>
+    <a href="add-course.html" class="lbtn" style="background: var(--blue-l); color: var(--blue);">Add Course</a>
+    <a href="contact.html" class="lbtn-outline" style="border:none; padding: 7px 16px;">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="page" style="display: block;">
+    <div class="ptitle">Add a New Course</div>
+    <div class="psub">Fill in the details below</div>
+
+    <div class="card">
+      <form>
+        <div class="fg">
+          <label>Course Name</label>
+          <input type="text" placeholder="e.g. Internet Technology" required/>
+        </div>
+        <div class="row">
+          <div class="fg">
+            <label>Instructor</label>
+            <input type="text" placeholder="e.g. Dr. Amr" required/>
+          </div>
+          <div class="fg">
+            <label>Credit Hours</label>
+            <select>
+              <option value="" disabled selected>Select</option>
+              <option>1 Hour</option><option>2 Hours</option>
+              <option>3 Hours</option><option>4 Hours</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="fg">
+            <label>Department</label>
+            <input type="text" placeholder="e.g. Computer Science"/>
+          </div>
+        </div>
+        <button type="submit" class="sbtn">Add Course</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer>© 2025 CourseHub — Personal Course Organizer</footer>
+</body>
+</html>
